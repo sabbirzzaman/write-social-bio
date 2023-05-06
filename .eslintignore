@@ -1,0 +1,8 @@
+node_modules/*
+postcss.config.cjs
+tailwind.config.cjs
+
+*.local
+.env
+
+.vscode/*

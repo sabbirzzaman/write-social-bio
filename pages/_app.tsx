@@ -1,3 +1,4 @@
+import React from 'react';
 import '@/styles/globals.scss';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
@@ -10,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link
           href="https://api.fontshare.com/v2/css?f[]=switzer@600,800,700,400,300,500&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
       <Component {...pageProps} />
     </>

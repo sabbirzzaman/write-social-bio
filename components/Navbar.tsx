@@ -8,7 +8,10 @@ export default function Navbar() {
       <Link href="/" className="text-xl font-semibold">
         write social bio
       </Link>
-      <button className="text-lg flex items-center gap-2 font-semibold px-6 py-1 rounded-lg transition-all hover:bg-[#2730361a]">
+      <button
+        className="text-lg flex items-center gap-2 font-semibold px-6 py-1 rounded-lg transition-all hover:bg-[#2730361a]"
+        type="button"
+      >
         <Share size="18" />
         Share
       </button>
