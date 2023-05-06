@@ -10,3 +10,7 @@ body {
 .wsb-container {
   @apply max-w-7xl mx-auto;
 }
+
+.button-primary {
+  @apply bg-primary-100 hover:bg-primary-200 text-lg text-white font-semibold px-10 py-2 rounded-lg transition-all;
+}
